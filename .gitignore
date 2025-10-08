@@ -1,5 +1,7 @@
 .env
-       *.pyc
-       __pycache__/
-       bot_logs.txt
-       subscriptions.db
+*.pyc
+__pycache__/
+bot_logs.txt
+subscriptions.db
+venv/
+*.log
