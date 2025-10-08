@@ -1,2 +1,1 @@
-web: gunicorn main:app
-worker: python -u main.py --telegram
+web: python main.py worker: python main.py --telegram
